@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#cal-box {
+    border: 2px solid red;
+    background-color: aqua;
+    padding: 10px;
+    width: 30pc;
+    border-radius: 20px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+}
+.mini{
+    border: 2px;
+    height: 5pc;
+}
+.first{
+    border: 2px solid green;
+    height: 5pc;
+    border-radius: 20px;
+}
+.row-cal{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: x-large;
+    font-weight: 900;
+}
+h3{
+    display: inline;
+    border: 2px solid navy;
+    padding: 2pc;
+    font-size: large;
+    border-radius: 24px;
+    font-weight: 500;
+}
